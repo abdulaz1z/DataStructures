@@ -24,8 +24,6 @@ public class Queue {
 	}
 	
 	public boolean isEmpty(){
-		return back.next == null;
+		return front.next == null;
 	}
-	
-
 }
