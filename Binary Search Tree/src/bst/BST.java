@@ -13,19 +13,19 @@ public class BST
 	public int height()
 	{
 		if(root == null)	return 0;
-		else 				return root.height();
+		else 			return root.height();
 	}
 	
 	public int count()
 	{
 		if(root == null)	return 0;
-		else 				return root.count();
+		else 			return root.count();
 	}
 	
 	public BSTNode search(int value)
 	{
 		if(root == null)	return null;
-		else 				return root.search(value);
+		else 			return root.search(value);
 	}
 	
 	public void printInOrder()
