@@ -22,14 +22,14 @@ public class Heap
 		return value;
 	}
 	
-	public void insert()
+	private void insert()
 	{
 		last++;
 		heapifyUpwards(last);
 		
 	}
 	
-	public void remove()
+	private void remove()
 	{
 		swap(0, last);
 		last--;
