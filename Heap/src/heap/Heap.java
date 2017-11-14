@@ -31,7 +31,7 @@ public class Heap
 	
 	private void remove()
 	{
-		swap(0, last);
+		swap(ROOT, last);
 		last--;
 		heapifyDownwards(ROOT);
 	}
